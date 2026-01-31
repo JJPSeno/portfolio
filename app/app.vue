@@ -10,7 +10,7 @@
       { name: 'description', content: 'A website about me and my works.' },
     ],
     bodyAttrs: {
-      class: 'bg-secondary text-text-color font-body relative text-pretty',
+      class: 'bg-secondary text-text-color font-body relative text-pretty scroll-smooth',
     },
     htmlAttrs:{
       lang: 'en'
