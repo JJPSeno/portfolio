@@ -1,7 +1,7 @@
 <template>
   <section
     id="about"
-    class="w-full relative pt-14 max-w-200 mx-auto px-4"
+    class="w-full relative pt-14 max-w-200 mx-auto px-4 min-h-dvh"
   >
     <h1 class="font-bold tracking-tight">
       <p class="text-3xl sm:text-4xl">
@@ -13,7 +13,7 @@
     </h1>
     <p class="tracking-wide mt-4 sm:mt-6">
       I have programmed for {{ yearsSince2017() }} years, delivering and improving the products my clients and employers have envisioned. And I love opportunities to use my skills to bring value to clients and fulfilment to myself.
-      I am experienced in working with both small teams, and large, interdependent teams that operate on a global time-scale. I am a critical thinker that loves technology and trying to understand the mechanisms that make them work.
+      I am experienced in working with both small teams, and large, interdependent teams that operate on a global time-scale. I am a critical thinker who loves technology and trying to understand the mechanisms that make them work.
     </p>
     <p class="tracking-wide mt-4 sm:mt-6 decoration-primary underline-offset-2">
       You can contact me at <span class="font-bold text-primary">seno.jeweljosef@gmail.com</span>
@@ -25,26 +25,31 @@
       You can also find my works below or in my
       <NuxtLink class="underline" to="https://github.com/JJPSeno" target="_blank" external>
         <span
-          class="inline-block bg-tertiary rounded-md w-3 sm:w-5 aspect-square p-1 align-middle mr-1"
+          class="inline-block bg-tertiary rounded-md w-4 sm:w-5 aspect-square p-0.5 sm:p-1 align-middle mr-1"
         >
-          <img
+          <NuxtImg
             class="w-full h-full"
             src="/images/website_icons/github.svg"
+            alt=""
           />
         </span>github</NuxtLink> and 
       <NuxtLink class="underline" to="https://edjuu.itch.io/" target="_blank" external>
         <span
-          class="inline-block bg-tertiary rounded-md w-3 sm:w-5 aspect-square p-1 align-middle mr-1"
+          class="inline-block bg-tertiary rounded-md w-4 sm:w-5 aspect-square p-0.5 sm:p-1 align-middle mr-1"
         >
-          <img
+          <NuxtImg
             class="w-full h-full"
             src="/images/website_icons/itchio.svg"
+            alt=""
           />
         </span>itch.io</NuxtLink> pages.
     </p>
-    <img
+    <NuxtImg
       src="/images/hero_banner/banner.avif"
       class="w-full mt-8 sm:mt-12"
+      alt=""
+      preload
+      fetch-priority="high"
     />
   </section>
 </template>

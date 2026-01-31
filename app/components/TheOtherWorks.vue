@@ -1,7 +1,7 @@
 <template>
   <details class="min-h-dvh marker:text-3xl marker:sm:text-4xl" closed>
     <summary class="border border-tertiary p-6 rounded-3xl">
-      <h4 class="inline text-3xl sm:text-4xl font-bold tracking-tight"> Other Projects: </h4>
+      <h2 class="inline text-3xl sm:text-4xl font-bold tracking-tight"> Other Projects: </h2>
       <p class="font-body tracking-wide text-xl/normal mt-4 sm:mt-6">
         Some of the works below can only be talked about in sparse details with no images or links due to NDAs. Others works are listed here due to their bare-bones and experimental nature.
       </p>
@@ -16,9 +16,9 @@
           class="mt-4 sm:mt-6 decoration-primary underline-offset-2"
           :class="work.relatedAssets.length>0?`min-h-dvh`:``"
         >
-          <h2 class="text-4xl sm:text-5xl font-bold tracking-tight">
+          <h3 class="text-4xl sm:text-5xl font-bold tracking-tight">
             {{ work.name }}
-          </h2>
+          </h3>
           <ProjectTags :project-tags="work.projectTags" />
           <p class="font-body tracking-wide text-lg/normal mt-4 sm:mt-6">
             {{ work.description }}
@@ -32,10 +32,12 @@
               class="flex-1 aspect-video mx-auto w-full *:w-full *:h-full *:object-cover"
               :class="work.relatedAssets.length>2?`first:col-span-2`:`col-span-2`"
             >
-              <img
+              <NuxtImg
                 v-if="resolveMediaType(asset)==='img'"
                 :src="asset"
-              >
+                loading="lazy"
+                alt=""
+              />
               <video
                 v-else
                 :src="asset"

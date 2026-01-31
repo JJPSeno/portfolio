@@ -1,8 +1,9 @@
 <template>
   <section
     id="skills"
+    class="mt-8 sm:mt-12 max-w-200 mx-auto px-4"
   >
-    <h3 class="font-bold tracking-tight text-3xl sm:text-4xl">My Skills:</h3>
+    <h2 class="font-bold tracking-tight text-3xl sm:text-4xl">My Skills:</h2>
     <div
       class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2 mt-4 sm:mt-6"
     >
@@ -10,12 +11,13 @@
         v-for="[name, src, _area] of TECHNOLOGIES"
         class="flex flex-col items-center justify-center aspect-square gap-2 bg-slate-500/30"
       >
-        <img
+        <NuxtImg
           class="w-1/2 aspect-square"
           :src="`${BASE_ICONS_PATH}${src}`"
-        >
+          :alt="name"
+          loading="lazy"
+        />
         <p> {{ name }}</p>
-        <!-- <p class="self-end justify-self-end text-xs mr-3"> {{ area }}</p> -->
       </div>
     </div>
   </section>

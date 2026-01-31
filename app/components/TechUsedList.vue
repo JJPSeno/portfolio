@@ -7,9 +7,11 @@
       :key="tech"
       class="bg-slate-300/30 rounded-md p-2"
     >
-      <img
-      class="w-6 sm:w-8 aspect-square"
-      :src="`${BASE_ICONS_PATH}${TECHNOLOGIES[tech][1]}`"
+      <NuxtImg
+        class="w-6 sm:w-8 aspect-square"
+        :src="`${BASE_ICONS_PATH}${TECHNOLOGIES[tech][1]}`"
+        :alt="tech"
+        loading="lazy"
       />
     </span>
   </section>
