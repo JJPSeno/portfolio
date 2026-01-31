@@ -9,7 +9,7 @@
       <ul class="flex divide-solid divide-x-3 divide-primary *:px-2 *:cursor-pointer">
         <li @click="()=>{$lenis.scrollTo('#about')}">Contact Me</li>
         <li @click="()=>{$lenis.scrollTo('#works')}">My Works</li>
-        <li><NuxtLink to="/documents/Jewel Josef P. Seno Resume.pdf">Resume</NuxtLink></li>
+        <li><a href="documents/Jewel-Josef-Seno-Software-Engineer-Resume.pdf">Resume</a></li>
       </ul>
     </nav>
   </header>
