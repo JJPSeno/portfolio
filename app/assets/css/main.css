@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Gabarito;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./app/assets/fonts/Gabarito.ttf") format("ttf");
+}
+
+@theme {
+  --color-primary: #ffc20c;
+  --color-secondary: #0e0e0e;
+
+  --color-text-color: #efefef;
+
+  --font-body: "Gabarito", sans-serif;
+
+  --tracking-wide: 0.04em;
+  --tracking-tight: -0.02em;
+}

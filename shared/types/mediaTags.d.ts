@@ -1,0 +1,1 @@
+export type MediaTags = 'img' | 'video' | undefined
