@@ -19,7 +19,7 @@
       You can contact me at <span class="font-bold text-primary">seno.jeweljosef@gmail.com</span>
       [<a class="underline" href="mailto:seno.jeweljosef@gmail.com" rel="noopener noreferrer">mailto link</a>]
       and you may
-      <NuxtLink to="/documents/Jewel Josef P. Seno Resume.pdf" class="underline" external>view my resume here</NuxtLink>.
+      <NuxtLink to="/portfolio/documents/Jewel Josef P. Seno Resume.pdf" class="underline" external>view my resume here</NuxtLink>.
     </p>
     <p class="tracking-wide mt-4 sm:mt-6 decoration-primary underline-offset-2">
       You can also find my works below or in my
