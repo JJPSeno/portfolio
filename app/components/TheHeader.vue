@@ -6,10 +6,10 @@
   >
     <p>Edj</p>
     <nav>
-      <ul class="flex divide-solid divide-x-3 divide-primary *:px-2">
-        <li>Contact Me</li>
-        <li>My Works</li>
-        <li>Resume</li>
+      <ul class="flex divide-solid divide-x-3 divide-primary *:px-2 *:cursor-pointer">
+        <li @click="()=>{$lenis.scrollTo('#about')}">Contact Me</li>
+        <li @click="()=>{$lenis.scrollTo('#works')}">My Works</li>
+        <li><NuxtLink to="/portfolio/documents/Jewel Josef P. Seno Resume.pdf">Resume</NuxtLink></li>
       </ul>
     </nav>
   </header>
