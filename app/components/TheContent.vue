@@ -10,10 +10,7 @@
       <h3 class="font-bold tracking-tight text-3xl sm:text-4xl">My Works:</h3>
       <WorkDetails :works="WEB_PROJECTS" />
       <WorkDetails :works="GAME_PROJECTS" />
-      <details class="min-h-dvh" closed>
-        <summary><h4 class="inline"> Other Projects: </h4></summary>
-        <WorkDetails :works="OTHER_PROJECTS" />
-      </details>
+      <TheOtherWorks :works="OTHER_PROJECTS" />
     </section>
   </main>
 </template>

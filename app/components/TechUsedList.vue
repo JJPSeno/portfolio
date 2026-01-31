@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex gap-2 mt-8 flex-wrap"
+    class="flex gap-2 mt-3 flex-wrap"
   >
     <span
       v-for="(tech) in techUsed"

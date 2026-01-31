@@ -16,10 +16,34 @@
       I am experienced in working with both small teams, and large, interdependent teams that operate on a global time-scale. I am a critical thinker that loves technology and trying to understand the mechanisms that make them work.
     </p>
     <p class="tracking-wide mt-4 sm:mt-6 decoration-primary underline-offset-2">
-      You can contact me at <span class="font-bold text-primary">seno.jeweljosef@gmail.com</span> [<a class="underline" href="mailto:seno.jeweljosef@gmail.com" rel="noopener noreferrer">mailto link</a>] and you may <NuxtLink to="/documents/Jewel Josef P. Seno Resume.pdf" class="underline" external>view my resume here</NuxtLink>. You can also find my works below or in my <NuxtLink class="underline" to="https://github.com/JJPSeno" target="_blank" external>github</NuxtLink> and <NuxtLink class="underline" to="https://edjuu.itch.io/" target="_blank" external>itch.io</NuxtLink> pages.
+      You can contact me at <span class="font-bold text-primary">seno.jeweljosef@gmail.com</span>
+      [<a class="underline" href="mailto:seno.jeweljosef@gmail.com" rel="noopener noreferrer">mailto link</a>]
+      and you may
+      <NuxtLink to="/documents/Jewel Josef P. Seno Resume.pdf" class="underline" external>view my resume here</NuxtLink>.
+    </p>
+    <p class="tracking-wide mt-4 sm:mt-6 decoration-primary underline-offset-2">
+      You can also find my works below or in my
+      <NuxtLink class="underline" to="https://github.com/JJPSeno" target="_blank" external>
+        <span
+          class="inline-block bg-tertiary rounded-md w-3 sm:w-5 aspect-square p-1 align-middle mr-1"
+        >
+          <img
+            class="w-full h-full"
+            src="/images/website_icons/github.svg"
+          />
+        </span>github</NuxtLink> and 
+      <NuxtLink class="underline" to="https://edjuu.itch.io/" target="_blank" external>
+        <span
+          class="inline-block bg-tertiary rounded-md w-3 sm:w-5 aspect-square p-1 align-middle mr-1"
+        >
+          <img
+            class="w-full h-full"
+            src="/images/website_icons/itchio.svg"
+          />
+        </span>itch.io</NuxtLink> pages.
     </p>
     <img
-      src="/images/hero_banner/banner.png"
+      src="/images/hero_banner/banner.avif"
       class="w-full mt-8 sm:mt-12"
     />
   </section>
