@@ -1,12 +1,12 @@
 import type { WebProjectDetails, GameProjectDetails, OtherProjectDetails } from '~~/shared/types/projects'
-import { BASE_GAME_IMGS_PATH, BASE_VIDEOS_PATH } from '~~/app/constants/paths'
+import { BASE_GAME_IMGS_PATH, BASE_WEB_IMGS_PATH, BASE_VIDEOS_PATH } from '~~/app/constants/paths'
 
 export const WEB_PROJECTS: WebProjectDetails = {
   VAULDEX_WEB_TECH: {
     name: "Vauldex.com and Vauldex.tech",
     description: "Vauldex Technologies websites for both the Japanese demographic and an International Demographic.",
     url: ["https://vauldex.com/", "https://vauldex.tech/"],
-    relatedAssets: [],
+    relatedAssets: [`${BASE_WEB_IMGS_PATH}vc1.avif`, `${BASE_WEB_IMGS_PATH}vt1.avif`],
     techUsed: ['html', 'vue','nuxt', 'css', 'tailwind', 'javascript', 'typescript', 'gsap', 'strapi', 'aws'],
     projectTags: ['Business', 'Animated', 'CMS'],
   },
@@ -14,7 +14,7 @@ export const WEB_PROJECTS: WebProjectDetails = {
     name: "Tamariba Garage",
     description: "Dance studio website that uses Strapi for administrative content such as instructor and schedule information. This project also leverages SSG (which automatically updates via Strapi webhook), lazy loading and AWS CloudFront for a low-cost yet dynamic and fast website experience.",
     url: ["https://tamariba-garage.com/"],
-    relatedAssets: [],
+    relatedAssets: [`${BASE_VIDEOS_PATH}tg1.mp4`],
     techUsed: ['html', 'vue','nuxt', 'css', 'tailwind', 'javascript', 'typescript', 'strapi', 'gsap', 'aws'],
     projectTags: ['Business', 'Animated', 'CMS'],
   },
@@ -22,7 +22,7 @@ export const WEB_PROJECTS: WebProjectDetails = {
     name: "Naminori Dojo",
     description: "A Japanese E-learning app for those who wished to learn more about stocks and cryptocurrencies. The backend is powered by Scala, and content is handled via a custom CMS web-application, with administrative infromation seemlessly integrated with Zoho CRM for an easy-to-navigate administrator experience.",
     url: ["https://app.naminori-fx.com/"],
-    relatedAssets: [],
+    relatedAssets: [`${BASE_WEB_IMGS_PATH}nd1.avif`],
     techUsed: ['html', 'vue','nuxt', 'css', 'tailwind', 'javascript', 'typescript', 'scala', 'postgresql', 'aws', 'zoho', 'gcp', 'discord'],
     projectTags: ['Business', 'Full Stack Development', 'CMS'],
   },
@@ -30,7 +30,7 @@ export const WEB_PROJECTS: WebProjectDetails = {
     name: "JKEVINYU's Portfolio",
     description: "Portfolio website for an artist friend.",
     url: ["https://jkevinyu.vercel.app/"],
-    relatedAssets: [],
+    relatedAssets: [`${BASE_WEB_IMGS_PATH}ap1.avif`, `${BASE_WEB_IMGS_PATH}ap2.avif`, `${BASE_WEB_IMGS_PATH}ap3.avif`],
     techUsed: ['html', 'react','next', 'css', 'tailwind', 'javascript', 'typescript', 'motion'],
     projectTags: ['Business', 'Animated'],
   }
@@ -41,7 +41,7 @@ export const GAME_PROJECTS: GameProjectDetails = {
     name: "Viscera",
     description: "My first ever game jam submission which ended up being a 3D action game with a theme of 'folklore'. I wanted the player to embody a being from the Philippines: the 'aswang'. The aswang is a viscera-eating, shape shifting monster, and on this night, you are being hunted by a team of mightly local archers. It is up to you to turn the tables on them, striking them down one-by-one.",
     url: ["https://edjuu.itch.io/viscera"],
-    relatedAssets: [`${BASE_GAME_IMGS_PATH}viscera-1.gif`,`${BASE_GAME_IMGS_PATH}viscera-2.gif`,`${BASE_GAME_IMGS_PATH}viscera-3.gif`],
+    relatedAssets: [`${BASE_GAME_IMGS_PATH}viscera-1.gif`],
     techUsed: ['godot', 'python', 'gimp', 'blender'],
     projectTags: ['Game Development'],
   },
@@ -57,7 +57,7 @@ export const GAME_PROJECTS: GameProjectDetails = {
     name: "Boring Village",
     description: "Expore a quaint little town filled with quest-giving NPCs. But be warned, danger is brewing. As this was a joint collaboration with a friend of mine to try and take on a gamejam with the theme: 'Calm Before the Storm'. We looked into different interpritations of how we could design a game with the theme before landing on a simple cozy 2d RPG, with a twist nearing the end.",
     url: ["https://edjuu.itch.io/boring-village"],
-    relatedAssets: [`${BASE_GAME_IMGS_PATH}boring-village-1.gif`,`${BASE_GAME_IMGS_PATH}boring-village-2.gif`,`${BASE_GAME_IMGS_PATH}boring-village-3.gif`],
+    relatedAssets: [`${BASE_GAME_IMGS_PATH}boring-village-1.gif`],
     techUsed: ['godot', 'python', 'gimp'],
     projectTags: ['Game Development'],
   },

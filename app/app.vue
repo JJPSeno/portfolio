@@ -12,5 +12,8 @@
     bodyAttrs: {
       class: 'bg-secondary text-text-color font-body relative text-pretty',
     },
+    htmlAttrs:{
+      lang: 'en'
+    }
   })
 </script>
