@@ -87,13 +87,5 @@ export const OTHER_PROJECTS: OtherProjectDetails = {
     relatedAssets: [],
     techUsed: ['html', 'reactnative', 'css'],
     projectTags: ['Business', 'Mobile App'],
-  },
-  TV_WEBAPP: {
-    name: "Prototype TV WEBAPP",
-    description: "Project developed for practicing Angular and Django with a goal of creating a video hosting website.",
-    url: [""],
-    relatedAssets: [`${BASE_VIDEOS_PATH}TvApp.mp4`],
-    techUsed: ['html', 'angular', 'css', 'tailwind', 'javascript', 'typescript', 'python', 'django'],
-    projectTags: ['Full Stack Development'],
   }
 }
